@@ -1,0 +1,22 @@
+import React from 'react';
+import {
+  FormGroup,
+  CustomInput
+} from 'reactstrap';
+
+const CheckBoxes = (props) => {
+  return (
+    <div className="component">
+      <p className="lead">Checkboxes</p>
+      <FormGroup>
+        <div>
+          <CustomInput type="checkbox" id="exampleCustomCheckbox" label="Hozier" defaultChecked />
+          <CustomInput type="checkbox" id="exampleCustomCheckbox2" label="The 1975" />
+          <CustomInput type="checkbox" id="exampleCustomCheckbox3" label="Billie Eilish" disabled defaultChecked />
+          <CustomInput type="checkbox" id="exampleCustomCheckbox4" label="Alt-J" disabled />
+        </div>
+      </FormGroup>
+    </div>
+  );
+}
+export default CheckBoxes;

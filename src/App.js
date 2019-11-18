@@ -8,16 +8,24 @@ import ExampleNavbar from "./components/presentation-page/ExampleNavbar";
 import ExampleHeader from "./components/presentation-page/ExampleHeader";
 import Colours from "./components/presentation-page/Colours";
 import Buttons from "./components/presentation-page/Buttons";
+import Forms from "./components/presentation-page/Forms";
+import Typography from "./components/presentation-page/Typography";
+import Examples from "./components/presentation-page/Examples";
+import ReadDocs from "./components/presentation-page/ReadDocs";
+import CTA from "./components/presentation-page/CTA";
+import Footer from "./components/Footer";
+
 
 // creating a library with the Font Awesome icons we use through the kit
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faHeart, faDownload } from '@fortawesome/free-solid-svg-icons';
-library.add(faHeart, faDownload);
+import { faHeart, faDownload, faUser, faKey } from '@fortawesome/free-solid-svg-icons';
+import { faTwitter, faFacebookSquare, faGithub } from '@fortawesome/free-brands-svg-icons';
+library.add(faHeart, faDownload, faUser, faKey, faTwitter, faFacebookSquare, faGithub);
 
 class App extends React.Component {
   render() {
     return (
-      <div class="index">
+      <div className="index">
         <ExampleNavbar />
         <ExampleHeader />
 
@@ -33,9 +41,19 @@ class App extends React.Component {
       	    </Row>
 
             <Colours />
-
+            <Buttons />
           </Container>
         </div>
+
+        <Container>
+          <Forms />
+          <Typography />
+        </Container>
+
+        <Examples />
+        <ReadDocs />
+        <CTA />
+        <Footer />
       </div>
     );
   };

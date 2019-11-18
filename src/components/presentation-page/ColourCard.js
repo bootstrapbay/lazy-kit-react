@@ -8,9 +8,9 @@ import {
 const ColourCard = (props) => (
   <Card className="no-hover color">
     <CardBody className="d-flex flex-column align-items-center">
-      <div class="swatch" style={{backgroundColor: props.colour}}></div>
-      <div class="title" style={{textTransform: 'capitalize'}}>{props.name}</div>
-      <div class="hex text-muted">{props.colour}</div>
+      <div className="swatch" style={{backgroundColor: props.colour}}></div>
+      <div className="title" style={{textTransform: 'capitalize'}}>{props.name}</div>
+      <div className="hex text-muted">{props.colour}</div>
     </CardBody>
   </Card>
 );
