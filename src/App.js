@@ -10,6 +10,8 @@ import Colours from "./components/presentation-page/Colours";
 import Buttons from "./components/presentation-page/Buttons";
 import Forms from "./components/presentation-page/Forms";
 import Typography from "./components/presentation-page/Typography";
+import Images from "./components/presentation-page/Images";
+import NavigationBars from "./components/presentation-page/NavigationBars";
 import Examples from "./components/presentation-page/Examples";
 import ReadDocs from "./components/presentation-page/ReadDocs";
 import CTA from "./components/presentation-page/CTA";
@@ -48,8 +50,14 @@ class App extends React.Component {
         <Container>
           <Forms />
           <Typography />
+          <Images />
         </Container>
 
+        <NavigationBars />
+
+        <Container>
+
+        </Container>
         <Examples />
         <ReadDocs />
         <CTA />
