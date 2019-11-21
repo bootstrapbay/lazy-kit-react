@@ -20,9 +20,9 @@ import Footer from "./components/Footer";
 
 // creating a library with the Font Awesome icons we use through the kit
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faHeart, faDownload, faUser, faKey } from '@fortawesome/free-solid-svg-icons';
-import { faTwitter, faFacebookSquare, faGithub } from '@fortawesome/free-brands-svg-icons';
-library.add(faHeart, faDownload, faUser, faKey, faTwitter, faFacebookSquare, faGithub);
+import { faHeart, faDownload, faUser, faKey, faGlobe, faCampground, faBinoculars, faFire, faCat, faCrow, faDog, faFish, faOtter } from '@fortawesome/free-solid-svg-icons';
+import { faTwitter, faFacebookSquare, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+library.add(faHeart, faDownload, faUser, faKey, faGlobe, faCampground, faBinoculars, faFire, faCat, faCrow, faDog, faFish, faOtter, faTwitter, faFacebookSquare, faGithub, faLinkedin);
 
 class App extends React.Component {
   render() {

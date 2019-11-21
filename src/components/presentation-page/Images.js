@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   Row,
-  Container,
   Col
 } from 'reactstrap';
 import Lorde from "./../../assets/img/lorde.png";
@@ -17,7 +16,7 @@ const Images = (props) => {
       return (
         <Col xs="12" md="3" key={`image-${index}`}>
           <p className="lead pt-3">{im.name}</p>
-          <img src={Lorde} alt="Rounded image" className={`img-fluid ${im.cl}`} style={{width: 150}} />
+          <img src={Lorde} alt="lorde" className={`img-fluid ${im.cl}`} style={{width: 150}} />
         </Col>
       );
   });
