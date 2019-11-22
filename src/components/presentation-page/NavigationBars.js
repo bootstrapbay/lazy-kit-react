@@ -22,7 +22,7 @@ const NavigationBars = () => {
           </Row>
           <NavMenues />
         </div>
-        <div class="section">
+        <div className="section">
           <Row>
             <Col xs="12">
               <div className="page-header">
