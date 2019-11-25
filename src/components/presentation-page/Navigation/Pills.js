@@ -22,7 +22,7 @@ class Pills extends React.Component {
     }
 
     toggle(tab) {
-      this.activeTab != tab && this.setState({ activeTab: tab });
+      this.activeTab !== tab && this.setState({ activeTab: tab });
     }
 
     render() {
@@ -31,10 +31,10 @@ class Pills extends React.Component {
         <p className="lead pt-3">Tabs</p>
         <Nav pills className="nav-secondary">
           <NavItem>
-            <NavLink className={this.state.activeTab === "home" && "active"} onClick={() => {this.toggle("home")}} >Home</NavLink>
+            <NavLink className={this.state.activeTab === "home" ? "active" : " "} onClick={() => {this.toggle("home")}} >Home</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className={this.state.activeTab === "profile" && "active"} onClick={() => {this.toggle("profile")}}>Profile</NavLink>
+            <NavLink className={this.state.activeTab === "profile" ? "active" : " "} onClick={() => {this.toggle("profile")}}>Profile</NavLink>
           </NavItem>
           <NavItem>
             <NavLink disabled href="#">Disabled</NavLink>
@@ -67,13 +67,13 @@ class Pills extends React.Component {
 
         <Nav pills className="nav-danger mt-3">
           <NavItem>
-            <NavLink className={this.state.activeTab === "home" && "active"} onClick={() => {this.toggle("home")}} >
+            <NavLink className={this.state.activeTab === "home" ? "active" : " "} onClick={() => {this.toggle("home")}} >
               <FontAwesomeIcon icon="igloo" /> {" "}
               Home
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className={this.state.activeTab === "profile" && "active"} onClick={() => {this.toggle("profile")}}>
+            <NavLink className={this.state.activeTab === "profile" ? "active" : " "} onClick={() => {this.toggle("profile")}}>
               <FontAwesomeIcon icon="location-arrow" /> {" "}
               Actions
             </NavLink>
@@ -85,7 +85,7 @@ class Pills extends React.Component {
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className={this.state.activeTab === "socks" && "active"} onClick={() => {this.toggle("dashboard")}}>
+            <NavLink className={this.state.activeTab === "socks" ? "active" : " "} onClick={() => {this.toggle("dashboard")}}>
               <FontAwesomeIcon icon="chart-line" /> {" "}
               Dashboard
             </NavLink>
@@ -94,12 +94,12 @@ class Pills extends React.Component {
 
         <Nav pills className="nav-info nav-icons mt-3">
           <NavItem>
-            <NavLink className={this.state.activeTab === "home" && "active"} onClick={() => {this.toggle("home")}} >
+            <NavLink className={this.state.activeTab === "home" ? "active" : " "} onClick={() => {this.toggle("home")}} >
               <FontAwesomeIcon icon="igloo" />
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className={this.state.activeTab === "profile" && "active"} onClick={() => {this.toggle("profile")}}>
+            <NavLink className={this.state.activeTab === "profile" ? "active" : " "} onClick={() => {this.toggle("profile")}}>
               <FontAwesomeIcon icon="location-arrow" />
             </NavLink>
           </NavItem>
@@ -109,7 +109,7 @@ class Pills extends React.Component {
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className={this.state.activeTab === "socks" && "active"} onClick={() => {this.toggle("dashboard")}}>
+            <NavLink className={this.state.activeTab === "socks" ? "active" : " "} onClick={() => {this.toggle("dashboard")}}>
               <FontAwesomeIcon icon="chart-line" />
             </NavLink>
           </NavItem>

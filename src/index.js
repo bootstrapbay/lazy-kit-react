@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
-import './assets/css/lazy.css';
-import './assets/css/demo.css';
+import './assets/scss/lazy.scss';
+import './assets/scss/demo.scss';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

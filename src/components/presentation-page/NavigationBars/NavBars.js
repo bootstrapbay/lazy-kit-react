@@ -49,7 +49,6 @@ const NavBars = (props) => {
   }
   let navTrans = (
     <div className="demo-background">
-      <div className="filter"></div>
       <ExampleNavbar {...navTransSet} />
     </div>
   );

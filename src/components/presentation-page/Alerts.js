@@ -20,19 +20,19 @@ const Alerts = (props) => {
       <div className="component">
         <UncontrolledAlert color="info">
           <FontAwesomeIcon icon="info" />{" "}
-          <strong>Hey!</strong> I think you should know <a href="#">this</a>.
+          <strong>Hey!</strong> I think you should know <a href="#a">this</a>.
         </UncontrolledAlert>
         <UncontrolledAlert color="success">
           <FontAwesomeIcon icon="check" />{" "}
-          <strong>Yay!</strong> Everything is fine! You can go back to your <a href="#">page</a>.
+          <strong>Yay!</strong> Everything is fine! You can go back to your <a href="#a">page</a>.
         </UncontrolledAlert>
         <UncontrolledAlert color="warning">
           <FontAwesomeIcon icon="download" />{" "}
-          <strong>Oops!</strong> Something might be wrong. Make a quick <a href="#">test</a>!
+          <strong>Oops!</strong> Something might be wrong. Make a quick <a href="#a">test</a>!
         </UncontrolledAlert>
         <UncontrolledAlert color="danger">
           <FontAwesomeIcon icon="exclamation-circle" />{" "}
-          <strong>On no!</strong> Something really bad happened! Clear the premises and go <a href="#">somewhere safe</a>!
+          <strong>On no!</strong> Something really bad happened! Clear the premises and go <a href="#a">somewhere safe</a>!
         </UncontrolledAlert>
       </div>
     </div>

@@ -29,7 +29,7 @@ import Footer from "./components/Footer";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faHeart, faDownload, faUser, faKey, faGlobe, faCampground, faBinoculars, faFire, faCat, faCrow, faDog, faFish, faOtter, faTshirt, faShoePrints, faSocks, faStopCircle, faChessQueen, faChessKing, faChessRook, faChessKnight, faIgloo, faAddressCard, faChartLine, faLocationArrow, faInfo, faCheck, faExclamationCircle } from '@fortawesome/free-solid-svg-icons';
 import { faTwitter, faFacebookSquare, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-library.add(faHeart, faDownload, faUser, faKey, faGlobe, faCampground, faBinoculars, faFire, faCat, faCrow, faDog, faFish, faOtter, faTshirt, faShoePrints, faSocks, faChessQueen, faChessKing, faChessRook, faChessKnight, faStopCircle, faIgloo, faAddressCard, faChartLine, faLocationArrow, faInfo, faCheck,  faExclamationCircle, faTwitter, faFacebookSquare, faGithub, faLinkedin);
+library.add(faHeart, faDownload, faUser, faKey, faGlobe, faCampground, faBinoculars, faFire, faCat, faCrow, faDog, faFish, faOtter, faTshirt, faShoePrints, faSocks, faStopCircle, faChessQueen, faChessKing, faChessRook, faChessKnight, faIgloo, faAddressCard, faChartLine, faLocationArrow, faInfo, faCheck, faExclamationCircle, faTwitter, faFacebookSquare, faGithub, faLinkedin);
 
 class App extends React.Component {
   render() {

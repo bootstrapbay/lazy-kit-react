@@ -43,7 +43,7 @@ class ExampleNavbar extends React.Component {
               <NavbarToggler onClick={this.toggle} />
               <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav className="mx-2" navbar>
-                  <NavItem>
+                  <NavItem key="navitem-1">
                     <UncontrolledDropdown>
                       <DropdownToggle nav>
                         Components
@@ -54,7 +54,7 @@ class ExampleNavbar extends React.Component {
                       </DropdownMenu>
                     </UncontrolledDropdown>
                   </NavItem>
-                  <NavItem>
+                  <NavItem key="navitem-2">
                     <UncontrolledDropdown>
                       <DropdownToggle nav>
                         Examples
@@ -68,7 +68,7 @@ class ExampleNavbar extends React.Component {
                   </NavItem>
                 </Nav>
                 <Nav className="ml-auto" navbar>
-                  <NavItem>
+                  <NavItem key="navitem-3">
                     <Button color="light" outline={true}>Documentation</Button>
                   </NavItem>
                   <NavItem className="mx-2">

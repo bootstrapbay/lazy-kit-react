@@ -29,10 +29,16 @@ class ExampleNavbar extends React.Component {
 
   render() {
     let navItems = this.props.navItems.map((item, index) => {
+      let icon;
+      if (item.icon && item.icon !== "") {
+        icon = <FontAwesomeIcon icon={item.icon} />
+      } else {
+        icon = "";
+      }
       return (
-        <NavItem>
+        <NavItem key={`nav-item-index-${index}`}>
           <NavLink href="/">
-            <FontAwesomeIcon icon={item.icon} /> {" "}
+            {icon}{" "}
             {item.name}
           </NavLink>
         </NavItem>
