@@ -22,7 +22,7 @@ const LHeader = () => {
     		    <Form className="form-subscribe form-inline mb-3">
     		        <FormGroup className="flex-grow-1">
     		          <Label className="sr-only" for="email4">Email</Label>
-    		          <Input type="text" size="lg" className="flex-grow-1 mr-2" id="email4" placeholder="Your email address..." />
+    		          <Input type="text" bsSize="lg" className="flex-grow-1 mr-2" id="email4" placeholder="Your email address..." />
     		        </FormGroup>
     		        <Button type="submit" color="primary" size="lg" className=" mt-0 mt-md-3 mt-lg-0">Subscribe</Button>
     		    </Form>
