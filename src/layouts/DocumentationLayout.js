@@ -4,7 +4,7 @@ import {
   Row,
   Col
 } from 'reactstrap';
-
+import './../assets/lib/prism/prism.css';
 import DNavbar from "./../components/documentation/DNavbar";
 import DSidebar from "./../components/documentation/DSidebar";
 

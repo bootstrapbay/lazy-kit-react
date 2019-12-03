@@ -16,7 +16,6 @@ class Profile extends React.Component {
           <PInfo />
           <PTabs />
         </Container>
-        <Footer />
       </div>
     );
   };

@@ -1,12 +1,9 @@
 import React from 'react';
-import {
-  Badge
-} from 'reactstrap';
+import { Badge } from 'reactstrap';
 
 const Badges = (props) => {
   return (
-    <div className="component">
-      <p className="lead">Badges</p>
+    <div>
       <div className="mb-2">
         <Badge color="primary">Primary</Badge> {" "}
         <Badge color="secondary">Secondary</Badge>{" "}

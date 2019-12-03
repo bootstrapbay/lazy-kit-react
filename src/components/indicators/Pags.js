@@ -7,8 +7,7 @@ import {
 
 const Pags = (props) => {
   return (
-    <div className="component">
-      <p className="lead">Pagination</p>
+    <div>
       <Pagination size="lg">
         <PaginationItem disabled>
           <PaginationLink previous href="#a" />
@@ -32,7 +31,7 @@ const Pags = (props) => {
           <PaginationLink next href="#a" />
         </PaginationItem>
       </Pagination>
-      
+
       <Pagination>
         <PaginationItem disabled>
           <PaginationLink previous href="#a" />

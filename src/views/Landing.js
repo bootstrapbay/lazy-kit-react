@@ -22,7 +22,6 @@ class Landing extends React.Component {
         <LTestimonials />
         <LContact />
         <LCTA />
-        <Footer />
       </div>
     );
   };

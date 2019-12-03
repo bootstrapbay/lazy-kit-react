@@ -15,6 +15,7 @@ import License from "./views/documentation/License";
 import Contents from "./views/documentation/Contents";
 import Alerts from "./views/documentation/Alerts";
 import Badges from "./views/documentation/Badges";
+import Breadcrumbs from "./views/documentation/Breadcrumbs";
 import Buttons from "./views/documentation/Buttons";
 import Cards from "./views/documentation/Cards";
 import Dropdowns from "./views/documentation/Dropdowns";
@@ -103,6 +104,12 @@ let documentation_routes = [
     layout: DocumentationLayout,
     component: Badges,
     name: "Badges"
+  },
+  {
+    path: "/documentation/breadcrumbs",
+    layout: DocumentationLayout,
+    component: Breadcrumbs,
+    name: "Breadcrumbs"
   },
   {
     path: "/documentation/buttons",

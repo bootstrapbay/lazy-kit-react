@@ -6,8 +6,7 @@ import {
 
 const Breadcrumbs = (props) => {
   return (
-    <div className="component">
-      <p className="lead">Breadcrumbs</p>
+    <div>
       <Breadcrumb>
         <BreadcrumbItem active>Home</BreadcrumbItem>
       </Breadcrumb>

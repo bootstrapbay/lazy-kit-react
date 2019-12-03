@@ -1,12 +1,9 @@
 import React from 'react';
-import {
-  Progress
-} from 'reactstrap';
+import { Progress } from 'reactstrap';
 
 const ProgressBars = (props) => {
   return (
-    <div className="component">
-      <p className="lead">Progress Bars</p>
+    <div>
       <Progress value={2 * 5} />
       <Progress color="success" value="25" />
       <Progress color="info" value={50} />

@@ -366,26 +366,27 @@
 			max-width: 650px;
 		}
 		pre {
-			background-color: $light;
-			color: $dark;
-			padding: 1rem .8rem;
-			font-size: .9rem;
-			line-height: 1rem;
-			margin-top: 1rem;
+			border-radius: 4px;
+			// background-color: $light;
+			// color: $dark;
+			// padding: 1rem .8rem;
+			// font-size: .9rem;
+			// line-height: 1rem;
+			// margin-top: 1rem;
 		}
 		.component {
 			margin: 1.5rem 0rem;
 		}
-		.token {
-			&.tag {
-				color: $primary;
-			}
-			&.attr-name {
-				color: $success;
-			}
-			&.attr-value {
-				color: $info;
-			}
-		}
+		// .token {
+		// 	&.tag {
+		// 		color: $primary;
+		// 	}
+		// 	&.attr-name {
+		// 		color: $success;
+		// 	}
+		// 	&.attr-value {
+		// 		color: $info;
+		// 	}
+		// }
 	}
 }

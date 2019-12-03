@@ -15,7 +15,7 @@ import NavigationBars from "./../components/presentation-page/NavigationBars";
 import Tables from "./../components/presentation-page/Tables";
 import Navigation from "./../components/presentation-page/Navigation";
 import Indicators from "./../components/presentation-page/Indicators";
-import Alerts from "./../components/presentation-page/Alerts";
+import Alerts from "./../components/Alerts";
 import Cards from "./../components/presentation-page/Cards";
 import TooltipsAndPopovers from "./../components/presentation-page/TooltipsAndPopovers";
 import Modals from "./../components/presentation-page/Modals";
@@ -59,7 +59,19 @@ class Presentation extends React.Component {
           <Tables />
           <Navigation />
           <Indicators />
-          <Alerts />
+
+          <div className="section">
+            <Row>
+              <Col xs="12" md={{size: 8, offset: 2}}>
+                <div className="header">
+                  <h2 id="alerts">Alerts</h2>
+                  <p>Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</p>
+                </div>
+              </Col>
+            </Row>
+            <Alerts />
+          </div>
+
           <Cards />
           <TooltipsAndPopovers />
           <Modals />
@@ -67,7 +79,6 @@ class Presentation extends React.Component {
         <Examples />
         <ReadDocs />
         <CTA />
-        <Footer />
       </div>
     );
   };

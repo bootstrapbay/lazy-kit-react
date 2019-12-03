@@ -3,10 +3,10 @@ import {
   Row,
   Col
 } from 'reactstrap';
-import Breadcrumbs from './Indicators/Breadcrumbs';
-import Pags from './Indicators/Pags';
-import Badges from './Indicators/Badges';
-import ProgressBars from './Indicators/ProgressBars';
+import Breadcrumbs from './../indicators/Breadcrumbs';
+import Pags from './../indicators/Pags';
+import Badges from './../indicators/Badges';
+import ProgressBars from './../indicators/ProgressBars';
 
 const Indicators = (props) => {
   return (
@@ -21,16 +21,28 @@ const Indicators = (props) => {
       </Row>
       <Row>
         <Col xs="12" md="6">
-          <Breadcrumbs />
+          <div className="component">
+            <p className="lead">Breadcrumbs</p>
+            <Breadcrumbs />
+          </div>
         </Col>
         <Col xs="12" md="6">
-          <Pags />
+          <div className="component">
+            <p className="lead">Pagination</p>
+            <Pags />
+          </div>
         </Col>
         <Col xs="12" md="6">
-          <Badges />
+          <div className="component">
+            <p className="lead">Badges</p>
+            <Badges />
+          </div>
         </Col>
         <Col xs="12" md="6">
-          <ProgressBars />
+          <div className="component">
+            <p className="lead">Progress Bars</p>
+            <ProgressBars />
+          </div>
         </Col>
       </Row>
     </div>
