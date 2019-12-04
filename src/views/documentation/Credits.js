@@ -18,6 +18,9 @@ const Credits = () => {
           Create React App - <a href="https://github.com/facebook/create-react-app" target="_blank">https://github.com/facebook/create-react-app</a>
         </li>
         <li>
+          React Router Dom - <a href="https://www.npmjs.com/package/react-router-dom" target="_blank">https://www.npmjs.com/package/react-router-dom</a>
+        </li>
+        <li>
           Font Awesome React - <a href="https://www.npmjs.com/package/@fortawesome/react-fontawesome" target="_blank">https://www.npmjs.com/package/@fortawesome/react-fontawesome</a>
         </li>
         <li>
