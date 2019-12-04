@@ -1,5 +1,5 @@
 import React from 'react';
-import ExampleNavbar from "./ExampleNavbar";
+import LazyNavbar from "./../../LazyNavbar";
 
 const NavBars = (props) => {
   let sets = [
@@ -40,7 +40,7 @@ const NavBars = (props) => {
   ];
 
   let navSets = sets.map((set, index) => {
-    return (<ExampleNavbar {...set} key={`example-navbar-${index}`}/>);
+    return (<LazyNavbar {...set} key={`example-navbar-${index}`}/>);
   })
 
   let navTransSet = {
@@ -49,7 +49,7 @@ const NavBars = (props) => {
   }
   let navTrans = (
     <div className="demo-background">
-      <ExampleNavbar {...navTransSet} />
+      <LazyNavbar {...navTransSet} />
     </div>
   );
 

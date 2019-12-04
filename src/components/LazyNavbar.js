@@ -12,7 +12,7 @@ import {
 } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-class ExampleNavbar extends React.Component {
+class LazyNavbar extends React.Component {
   constructor(props) {
     super(props);
     this.toggle = this.toggle.bind(this);
@@ -48,7 +48,7 @@ class ExampleNavbar extends React.Component {
       <Navbar expand="lg" dark={this.props.dark} light={this.props.light} className={`${this.props.bg} mb-4`}>
         <Container>
           <NavbarBrand href="/">
-            <img className="mr-2" style={{height: 30}} src={require(`./../../../assets/img/${this.props.logo}`)} alt="logo" />
+            <img className="mr-2" style={{height: 30}} src={require(`./../assets/img/${this.props.logo}`)} alt="logo" />
             {this.props.name}
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
@@ -63,7 +63,7 @@ class ExampleNavbar extends React.Component {
   }
 };
 
-ExampleNavbar.propType = {
+LazyNavbar.propType = {
   logo: PropTypes.string,
   name: PropTypes.string,
   bg: PropTypes.string,
@@ -72,7 +72,7 @@ ExampleNavbar.propType = {
   light: PropTypes.bool
 };
 
-ExampleNavbar.defaultProps = {
+LazyNavbar.defaultProps = {
   logo: "logo.svg",
   name: "Lazy Kit",
   bg: "bg-primary",
@@ -82,4 +82,4 @@ ExampleNavbar.defaultProps = {
 };
 
 
-export default ExampleNavbar;
+export default LazyNavbar;

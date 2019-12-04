@@ -1,7 +1,5 @@
 import React from 'react';
 import {
-  Row,
-  Col,
   Button,
   Modal,
   ModalHeader,
@@ -9,7 +7,7 @@ import {
   ModalFooter
 } from 'reactstrap';
 
-class Modals extends React.Component {
+class LazyModal extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -26,21 +24,10 @@ class Modals extends React.Component {
 
   render() {
     return (
-      <div className="section">
-        <Row>
-          <Col xs="12" md={{size: 8, offset: 2}}>
-            <div className="header">
-              <h2 id="modals">Modals</h2>
-              <p>Use the modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content.</p>
-            </div>
-             <div className="component">
-              <Button color="info" onClick={this.toggle}>
-                Click for More
-              </Button>
-             </div>
-          </Col>
-        </Row>
-
+      <div>
+        <Button color="info" onClick={this.toggle}>
+          Click for More
+        </Button>
         <Modal isOpen={this.state.modalOpen} toggle={this.toggle} className="modal-dialog-centered">
           <ModalHeader toggle={this.toggle}>Here is a modal</ModalHeader>
           <ModalBody>
@@ -56,4 +43,4 @@ class Modals extends React.Component {
   };
 };
 
-export default Modals;
+export default LazyModal;

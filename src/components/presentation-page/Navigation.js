@@ -3,8 +3,8 @@ import {
   Row,
   Col
 } from 'reactstrap';
-import Tabs from './Navigation/Tabs';
-import Pills from './Navigation/Pills';
+import Tabs from './../navigation/Tabs';
+import Pills from './../navigation/Pills';
 
 const Navigation = (props) => {
   return (
@@ -15,8 +15,14 @@ const Navigation = (props) => {
             <h2 id="navs">Navigation</h2>
             <p>Having to organise a list of links is a very common situation and knowing how to create Bootstrap 4 Navs will help you solve this.</p>
           </div>
-          <Tabs />
-          <Pills />
+          <div className="component">
+            <p className="lead">Nav Tabs</p>
+            <Tabs />
+          </div>
+          <div className="component">
+            <p className="lead">Nav Pills</p>
+            <Pills />
+          </div>
         </Col>
       </Row>
     </div>

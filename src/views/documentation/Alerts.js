@@ -1,5 +1,5 @@
 import React from 'react';
-import Prism from "prismjs";
+import Prism from 'prismjs';
 import PrismJsx from 'prismjs/components/prism-jsx.min';
 import LazyAlerts  from "./../../components/Alerts";
 

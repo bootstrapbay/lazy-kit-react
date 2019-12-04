@@ -3,13 +3,14 @@ import {
   Col,
   Row
 } from 'reactstrap';
-import Inputs from "./FormInputs/Inputs";
-import InputsWithValidation from "./FormInputs/InputsWithValidation";
-import CustomInputs from "./FormInputs/CustomInputs";
-import Sliders from "./FormInputs/Sliders";
-import CheckBoxes from "./FormInputs/CheckBoxes";
-import RadioButtons from "./FormInputs/RadioButtons";
-import ToggleButtons from "./FormInputs/ToggleButtons";
+import Inputs from "./../form-inputs/Inputs";
+import IconInputs from "./../form-inputs/IconInputs";
+import InputsWithValidation from "./../form-inputs/InputsWithValidation";
+import CustomInputs from "./../form-inputs/CustomInputs";
+import Sliders from "./../form-inputs/Sliders";
+import CheckBoxes from "./../form-inputs/CheckBoxes";
+import RadioButtons from "./../form-inputs/RadioButtons";
+import ToggleButtons from "./../form-inputs/ToggleButtons";
 
 const Forms = (props) => {
   return (
@@ -22,23 +23,49 @@ const Forms = (props) => {
             </div>
 
             <div className="inputs">
-              <Inputs />
-              <InputsWithValidation />
-              <CustomInputs />
-              <Sliders />
+              <div className="component">
+                <Row>
+                  <Col xs="12" md="6">
+                    <p className="lead">Default</p>
+                    <Inputs />
+                  </Col>
+                  <Col xs="12" md="6">
+                    <p className="lead">With Icons</p>
+                    <IconInputs />
+                  </Col>
+                </Row>
+              </div>
 
-              <Row>
-                <Col xs="12" lg="4">
-                  <CheckBoxes />
-                </Col>
-                <Col xs="12" lg="4">
-                  <RadioButtons />
-                </Col>
-                <Col xs="12" lg="4">
-                  <ToggleButtons />
-                </Col>
-              </Row>
+              <div className="component">
+                <p className="lead">With Validation</p>
+                <InputsWithValidation />
+              </div>
 
+              <div className="component">
+                <CustomInputs first="Custom Select" second="File Input" />
+              </div>
+
+              <div className="component">
+                <p className="lead">Sliders</p>
+                <Sliders />
+              </div>
+
+              <div className="component">
+                <Row>
+                  <Col xs="12" lg="4">
+                    <p className="lead">Checkboxes</p>
+                    <CheckBoxes />
+                  </Col>
+                  <Col xs="12" lg="4">
+                    <p className="lead">Radio Buttons</p>
+                    <RadioButtons />
+                  </Col>
+                  <Col xs="12" lg="4">
+                    <p className="lead">Toggle Buttons</p>
+                    <ToggleButtons />
+                  </Col>
+                </Row>
+              </div>
             </div>
           </Col>
         </Row>

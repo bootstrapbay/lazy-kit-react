@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 import {
   Row,
   Col
@@ -15,7 +15,7 @@ const Headings = (props) => {
             <p className="text-primary">{`Heading ${i}`}</p>
           </Col>
           <Col xs="12" sm="10">
-            <CustomH>{props.message}</CustomH>
+            <CustomH className="mt-0">{props.message}</CustomH>
           </Col>
         </Row>
       );
@@ -23,7 +23,6 @@ const Headings = (props) => {
   }
   return (
     <div className="headings">
-      <p className="lead mt-4">Headings</p>
       {hs}
     </div>
   );

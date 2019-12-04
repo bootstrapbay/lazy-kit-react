@@ -3,8 +3,9 @@ import {
   Col,
   Row
 } from 'reactstrap';
-import Headings from "./Typography/Headings";
-import Paragraphs from "./Typography/Paragraphs";
+import Headings from "./../typography/Headings";
+import Paragraphs from "./../typography/Paragraphs";
+import Blockquote from "./../typography/Blockquote";
 
 const Typography = (props) => {
   return (
@@ -20,8 +21,25 @@ const Typography = (props) => {
         <Row>
           <Col xs="12" lg={{size: 8, offset: 2}}>
             <div className="section-typography">
-              <Headings />
-              <Paragraphs />
+              <div className="component">
+                <p className="lead mt-4">Headings</p>
+                <Headings />
+              </div>
+
+              <div className="component">
+                <p className="lead mt-4">Paragraphs</p>
+                <Paragraphs />
+              </div>
+
+              <Row className="py-3 align-items-center">
+                <Col xs="12" sm="2">
+                  <p className="text-primary">Quote</p>
+                </Col>
+                <Col xs="12" sm="10">
+                  <Blockquote />
+                </Col>
+              </Row>
+
             </div>
           </Col>
         </Row>

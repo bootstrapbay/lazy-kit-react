@@ -27,8 +27,7 @@ class Tabs extends React.Component {
 
     render() {
     return (
-      <div className="component">
-        <p className="lead pt-3">Tabs</p>
+      <div>
         <Nav tabs>
           <NavItem>
             <NavLink className={this.state.activeTab === "home" ? "active" : " "} onClick={() => {this.toggle("home")}} >Home</NavLink>

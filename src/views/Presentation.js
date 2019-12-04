@@ -18,7 +18,7 @@ import Indicators from "./../components/presentation-page/Indicators";
 import Alerts from "./../components/Alerts";
 import Cards from "./../components/presentation-page/Cards";
 import TooltipsAndPopovers from "./../components/presentation-page/TooltipsAndPopovers";
-import Modals from "./../components/presentation-page/Modals";
+import LazyModal from "./../components/LazyModal";
 import Examples from "./../components/presentation-page/Examples";
 import ReadDocs from "./../components/presentation-page/ReadDocs";
 import CTA from "./../components/presentation-page/CTA";
@@ -74,7 +74,22 @@ class Presentation extends React.Component {
 
           <Cards />
           <TooltipsAndPopovers />
-          <Modals />
+
+          <div className="section">
+            <Row>
+              <Col xs="12" md={{size: 8, offset: 2}}>
+                <div className="header">
+                  <h2 id="modals">Modals</h2>
+                  <p>Use the modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content.</p>
+                </div>
+
+                 <div className="component">
+                  <LazyModal />
+                 </div>
+              </Col>
+            </Row>
+          </div>
+
         </Container>
         <Examples />
         <ReadDocs />

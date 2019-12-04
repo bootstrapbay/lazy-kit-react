@@ -10,8 +10,6 @@ import {
 
 const InputsWithValidation = () => {
   return (
-    <div className="component">
-      <p className="lead">With Validation</p>
       <Row>
         <Col xs="12" lg="6">
           <FormGroup>
@@ -26,7 +24,6 @@ const InputsWithValidation = () => {
           </FormGroup>
         </Col>
       </Row>
-    </div>
   );
 }
 
