@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://bootstrapbay.github.io/lazy-kit-react/"><img src="./src/assets/img/presentation.jpg" width="600" /></a>
+<a href="https://bootstrapbay.github.io/lazy-kit-react/"><img src="./src/assets/img/lazy_react.jpg" width="600" /></a>
 </p>
 
 <p align="center">
