@@ -6,7 +6,7 @@ import {
 } from "reactstrap";
 import ExampleCard from "./ExampleCard";
 
-const Examples = (props) => {
+const PExamples = (props) => {
   return (
     <div className="examples section bg-light">
       <Container>
@@ -18,13 +18,13 @@ const Examples = (props) => {
         </Row>
         <Row>
           <Col xs="12" md="6">
-            <ExampleCard name="Register Page" image="register.png" link="register.html" />
+            <ExampleCard name="Register Page" image="register.png" link="/register" />
           </Col>
           <Col xs="12" md="6">
-            <ExampleCard name="Profile Page" image="profile.png" link="profile.html" />
+            <ExampleCard name="Profile Page" image="profile.png" link="/profile" />
           </Col>
           <Col xs="12" md={{size: 6, offset: 3}}>
-            <ExampleCard name="Landing Page" image="landing.png" link="landing.html" />
+            <ExampleCard name="Landing Page" image="landing.png" link="/landing" />
           </Col>
         </Row>
       </Container>
@@ -32,4 +32,4 @@ const Examples = (props) => {
   );
 };
 
-export default Examples;
+export default PExamples;

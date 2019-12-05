@@ -66,14 +66,14 @@ let doc_route = [
     path: "/documentation",
     exact: true,
     layout: DocumentationLayout,
-    component: () => <Redirect to="/documentation/getting_started" />,
+    component: () => <Redirect to="/documentation/getting-started" />,
     name: "Documentation"
   }
 ];
 
 let introduction_routes = [
   {
-    path: "/documentation/getting_started",
+    path: "/documentation/getting-started",
     layout: DocumentationLayout,
     component: GettingStarted,
     name: "Getting Started"

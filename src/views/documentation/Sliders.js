@@ -1,7 +1,7 @@
 import React from 'react';
 import Prism from 'prismjs';
-import PrismJsx from 'prismjs/components/prism-jsx.min';
 import LazySliders  from "./../../components/form-inputs/Sliders";
+require('prismjs/components/prism-jsx.min');
 
 class Sliders extends React.Component {
   componentDidMount() {
@@ -11,7 +11,7 @@ class Sliders extends React.Component {
     return (
       <div>
         <h2>Sliders</h2>
-        <p className="mb-5">Sliders are imported from <b>nouislider-react</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Slider component, go <a href="https://www.npmjs.com/package/nouislider-react" target="_blank">here</a>.</p>
+        <p className="mb-5">Sliders are imported from <b>nouislider-react</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Slider component, go <a href="https://www.npmjs.com/package/nouislider-react" target="_blank" rel="noopener noreferrer">here</a>.</p>
         <p>Here is an example with how sliders look.</p>
         <LazySliders />
         <pre>

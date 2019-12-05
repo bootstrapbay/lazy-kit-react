@@ -1,12 +1,8 @@
 import React from 'react';
-import {
-  Row,
-  Col
-} from 'reactstrap';
-import Prism from "prismjs";
-import PrismJsx from 'prismjs/components/prism-jsx.min';
-import Tooltips  from "./../../components/Tooltips";
-import Popovers  from "./../../components/Popovers";
+import Prism from 'prismjs';
+import Tooltips  from './../../components/Tooltips';
+import Popovers  from './../../components/Popovers';
+require('prismjs/components/prism-jsx.min');
 
 class TooltipsPopovers extends React.Component {
   componentDidMount() {
@@ -16,7 +12,7 @@ class TooltipsPopovers extends React.Component {
     return (
       <div>
         <h2>Tooltips</h2>
-        <p className="mb-5">Nav tabs are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Tabs component, go <a href="https://reactstrap.github.io/components/tooltips/" target="_blank">here</a>.</p>
+        <p className="mb-5">Nav tabs are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Tabs component, go <a href="https://reactstrap.github.io/components/tooltips/" target="_blank" rel="noopener noreferrer">here</a>.</p>
         <p className="mb-5">Here are some examples of tooltips with different placement, triggered by the hover action.</p>
         <Tooltips />
 
@@ -77,7 +73,7 @@ export default Tooltips;
         </pre>
 
         <h2>Popovers</h2>
-        <p className="mb-5">Popovers are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Popover component, go <a href="https://reactstrap.github.io/components/popovers/" target="_blank">here</a>.</p>
+        <p className="mb-5">Popovers are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Popover component, go <a href="https://reactstrap.github.io/components/popovers/" target="_blank" rel="noopener noreferrer">here</a>.</p>
         <p className="mb-5">Here are some examples with different placement, triggered by the click action.</p>
         <Popovers />
         <pre>

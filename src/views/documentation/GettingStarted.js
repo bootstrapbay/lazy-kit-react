@@ -1,8 +1,8 @@
 import React from 'react';
 import { Button } from 'reactstrap';
 import Prism from 'prismjs';
-import PrismJsx from 'prismjs/components/prism-jsx.min';
 import { Link } from 'react-router-dom';
+require('prismjs/components/prism-jsx.min');
 
 class GettingStarted extends React.Component {
   componentDidMount() {

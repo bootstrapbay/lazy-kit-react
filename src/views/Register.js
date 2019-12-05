@@ -7,7 +7,6 @@ import {
 import RNavbar from './../components/register/RNavbar';
 import RForm from './../components/register/RForm';
 import RBackgroundImage from './../components/register/RBackgroundImage';
-import Footer from './../components/Footer';
 
 class Register extends React.Component {
   render() {

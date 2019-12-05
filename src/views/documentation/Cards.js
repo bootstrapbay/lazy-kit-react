@@ -4,8 +4,8 @@ import {
   Col
 } from 'reactstrap';
 import Prism from "prismjs";
-import PrismJsx from 'prismjs/components/prism-jsx.min';
 import LazyCard  from "./../../components/LazyCard";
+require('prismjs/components/prism-jsx.min');
 
 class Cards extends React.Component {
   componentDidMount() {
@@ -15,7 +15,7 @@ class Cards extends React.Component {
     return (
       <div>
         <h2>Cards</h2>
-        <p className="mb-5">Cards are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Card component, go <a href="https://reactstrap.github.io/components/card/" target="_blank">here</a>.</p>
+        <p className="mb-5">Cards are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Card component, go <a href="https://reactstrap.github.io/components/card/" target="_blank" rel="noopener noreferrer">here</a>.</p>
         <p>We have added a default hover effect for the Card. If you don't want to use it, you can add the className <code>no-hover</code>. Here is how a Lazy Card looks.</p>
         <Row>
           <Col xs="12" md="6">

@@ -1,7 +1,7 @@
 import React from 'react';
 import Prism from 'prismjs';
-import PrismJsx from 'prismjs/components/prism-jsx.min';
 import LazyModal  from "./../../components/LazyModal";
+require('prismjs/components/prism-jsx.min');
 
 class Modals extends React.Component {
   componentDidMount() {
@@ -11,7 +11,7 @@ class Modals extends React.Component {
     return (
       <div>
         <h2>Modals</h2>
-        <p className="mb-5">Modals are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Modal component, go <a href="https://reactstrap.github.io/components/modals/" target="_blank">here</a>.</p>
+        <p className="mb-5">Modals are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Modal component, go <a href="https://reactstrap.github.io/components/modals/" target="_blank" rel="noopener noreferrer">here</a>.</p>
         <LazyModal />
         <pre>
           <code className="language-jsx">

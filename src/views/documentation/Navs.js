@@ -1,12 +1,8 @@
 import React from 'react';
-import {
-  Row,
-  Col
-} from 'reactstrap';
-import Prism from "prismjs";
-import PrismJsx from 'prismjs/components/prism-jsx.min';
-import LazyTabs  from "./../../components/navigation/Tabs";
-import LazyPills  from "./../../components/navigation/Pills";
+import Prism from 'prismjs';
+import LazyTabs  from './../../components/navigation/Tabs';
+import LazyPills  from './../../components/navigation/Pills';
+require('prismjs/components/prism-jsx.min');
 
 class Navs extends React.Component {
   componentDidMount() {
@@ -19,7 +15,7 @@ class Navs extends React.Component {
         <p className="mb-5">There are two ways to create a menu with multiple links and tabs. You can use the tabs and pills. We will show you some examples with both of them.</p>
 
         <h4>Nav Tabs</h4>
-        <p className="mb-5">Nav tabs are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Tabs component, go <a href="https://reactstrap.github.io/components/navs/" target="_blank">here</a>.</p>
+        <p className="mb-5">Nav tabs are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Tabs component, go <a href="https://reactstrap.github.io/components/navs/" target="_blank" rel="noopener noreferrer">here</a>.</p>
         <p className="mb-5">We have created examples with simple tabs, tabs with text and icons and only icons.</p>
         <LazyTabs />
 
@@ -152,7 +148,7 @@ export default Tabs;
         </pre>
 
         <h4>Nav Pills</h4>
-        <p className="mb-5">Nav pills are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Pills component, go <a href="https://reactstrap.github.io/components/navs/" target="_blank">here</a>.</p>
+        <p className="mb-5">Nav pills are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Pills component, go <a href="https://reactstrap.github.io/components/navs/" target="_blank" rel="noopener noreferrer">here</a>.</p>
         <p className="mb-5">We have created examples with simple pills, pills with text and icons and only icons.</p>
         <LazyPills />
 

@@ -1,13 +1,15 @@
 import React from 'react';
 import {
-  Button,
   Col,
   Container,
   Row
-} from "reactstrap";
-import ThinkingEmoji from "./../../assets/img/gifs/thinking.gif";
+} from 'reactstrap';
+import {
+  Link
+} from 'react-router-dom';
+import ThinkingEmoji from './../../assets/img/gifs/thinking.gif';
 
-const ReadDocs = (props) => {
+const PReadDocs = (props) => {
   return (
     <div className="documentation section bg-white text-center">
       <Container>
@@ -20,9 +22,9 @@ const ReadDocs = (props) => {
       		  <p className="lead">
               Check out the documentation for every element in order to fully see its possibilities. You will find examples for every component and the variations that it comes with.
             </p>
-      		  <Button color="primary" size="lg" outline className="mt-4" href="documentation/getting_started.html" target="_blank">
+      		  <Link className="btn btn-lg btn-outline-primary mt-4" to="documentation">
               See Documentation
-            </Button>
+            </Link>
       		</Col>
       	</Row>
       </Container>
@@ -30,4 +32,4 @@ const ReadDocs = (props) => {
   );
 };
 
-export default ReadDocs;
+export default PReadDocs;

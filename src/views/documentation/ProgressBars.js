@@ -1,7 +1,7 @@
 import React from 'react';
 import Prism from "prismjs";
-import PrismJsx from 'prismjs/components/prism-jsx.min';
 import LazyProgress  from "./../../components/indicators/ProgressBars";
+require('prismjs/components/prism-jsx.min');
 
 class ProgressBars extends React.Component {
   componentDidMount() {
@@ -11,7 +11,7 @@ class ProgressBars extends React.Component {
     return (
       <div>
         <h2>Progress Bars</h2>
-        <p className="mb-5">Progress bars are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Progress bar component, go <a href="https://reactstrap.github.io/components/progress/" target="_blank">here</a>.</p>
+        <p className="mb-5">Progress bars are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Progress bar component, go <a href="https://reactstrap.github.io/components/progress/" target="_blank" rel="noopener noreferrer">here</a>.</p>
         <LazyProgress />
         <pre>
           <code className="language-jsx">

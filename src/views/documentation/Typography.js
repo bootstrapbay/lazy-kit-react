@@ -1,9 +1,9 @@
 import React from 'react';
 import Prism from 'prismjs';
-import PrismJsx from 'prismjs/components/prism-jsx.min';
 import Headings  from './../../components/typography/Headings';
 import Paragraphs  from './../../components/typography/Paragraphs';
 import Blockquote  from './../../components/typography/Blockquote';
+require('prismjs/components/prism-jsx.min');
 
 class Typography extends React.Component {
   componentDidMount() {
@@ -14,11 +14,11 @@ class Typography extends React.Component {
       <div>
         <h2>Typography</h2>
         <p>
-          Bootstrap 4 makes use of responsive typography. To see all the elements that you can use in your typography, check out our <a href="https://bootstrapbay.com/blog/day-4-bootstrap-4-typography-tutorial-and-examples/" target="_blank">Bootstrap 4 typography tutorial</a>.
+          Bootstrap 4 makes use of responsive typography. To see all the elements that you can use in your typography, check out our <a href="https://bootstrapbay.com/blog/day-4-bootstrap-4-typography-tutorial-and-examples/">Bootstrap 4 typography tutorial</a>.
         </p>
 
         <p>
-          Lazy Kit imports and used the Raleway font. This a free Google Font that you can download <a href="https://fonts.google.com/specimen/Raleway" target="_blank">here</a>. It is automatically included inside the source files for the kit, so you do not have to worry about importing it yourself.
+          Lazy Kit imports and used the Raleway font. This a free Google Font that you can download <a href="https://fonts.google.com/specimen/Raleway" target="_blank" rel="noopener noreferrer">here</a>. It is automatically included inside the source files for the kit, so you do not have to worry about importing it yourself.
         </p>
 
         <h4>Headings</h4>

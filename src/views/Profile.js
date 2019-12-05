@@ -5,7 +5,6 @@ import {
 import PNavbar from './../components/profile/PNavbar';
 import PInfo from './../components/profile/PInfo';
 import PTabs from './../components/profile/PTabs';
-import Footer from './../components/Footer';
 
 class Profile extends React.Component {
   render() {

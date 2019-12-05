@@ -4,7 +4,6 @@ import {
   Col
 } from 'reactstrap';
 import Prism from 'prismjs';
-import PrismJsx from 'prismjs/components/prism-jsx.min';
 import Inputs from './../../components/form-inputs/Inputs';
 import IconInputs from './../../components/form-inputs/IconInputs';
 import InputsWithValidation from './../../components/form-inputs/InputsWithValidation';
@@ -12,6 +11,7 @@ import CustomInputs from './../../components/form-inputs/CustomInputs';
 import CheckBoxes from './../../components/form-inputs/CheckBoxes';
 import RadioButtons from './../../components/form-inputs/RadioButtons';
 import ToggleButtons from './../../components/form-inputs/ToggleButtons';
+require('prismjs/components/prism-jsx.min');
 
 class Forms extends React.Component {
   componentDidMount() {
@@ -21,7 +21,7 @@ class Forms extends React.Component {
     return (
       <div>
         <h2>Forms</h2>
-        <p className="mb-5">Forms are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use Forms, go <a href="https://reactstrap.github.io/components/form/" target="_blank">here</a>.</p>
+        <p className="mb-5">Forms are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use Forms, go <a href="https://reactstrap.github.io/components/form/" target="_blank" rel="noopener noreferrer">here</a>.</p>
 
         <h4 className="mt-5">Default Inputs</h4>
         <p>Here is how a simple input field looks like.</p>

@@ -5,7 +5,7 @@ import {
   Table
 } from 'reactstrap';
 
-const Tables = (props) => {
+const PTables = (props) => {
   return (
     <div className="section">
       <Row>
@@ -69,4 +69,4 @@ const Tables = (props) => {
   );
 };
 
-export default Tables;
+export default PTables;

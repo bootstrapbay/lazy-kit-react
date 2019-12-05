@@ -1,5 +1,6 @@
 import React from 'react';
-import LazyNavbar from "./../../LazyNavbar";
+import LazyNavbar from './../../LazyNavbar';
+import background from './../../../assets/img/purple.jpg';
 
 const NavBars = (props) => {
   let sets = [
@@ -48,7 +49,7 @@ const NavBars = (props) => {
       navItems: [{name: "Home", icon: "cat"}, {name: "Profile", icon: "dog"}, {name: "Dashboard", icon: "fish"}]
   }
   let navTrans = (
-    <div className="demo-background">
+    <div className="demo-background" style={{backgroundImage: `url(${background})`}}>
       <LazyNavbar {...navTransSet} />
     </div>
   );

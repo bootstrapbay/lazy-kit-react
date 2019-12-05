@@ -6,14 +6,14 @@ import {
 import Tabs from './../navigation/Tabs';
 import Pills from './../navigation/Pills';
 
-const Navigation = (props) => {
+const PNavigation = (props) => {
   return (
     <div className="section">
       <Row>
         <Col xs="12" md={{size: 8, offset: 2}}>
           <div className="page-header">
             <h2 id="navs">Navigation</h2>
-            <p>Having to organise a list of links is a very common situation and knowing how to create Bootstrap 4 Navs will help you solve this.</p>
+            <p>Having to organise a list of links is a very common situation and knowing how to use the Reactstrap Navs will help you solve this.</p>
           </div>
           <div className="component">
             <p className="lead">Nav Tabs</p>
@@ -29,4 +29,4 @@ const Navigation = (props) => {
   );
 };
 
-export default Navigation;
+export default PNavigation;

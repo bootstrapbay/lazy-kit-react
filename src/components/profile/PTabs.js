@@ -29,8 +29,8 @@ class PTabs extends React.Component {
     let photos = photoRoutes.map((p, index) => {
       let img = require(`./../../assets/img/${p}`);
       return (
-        <Col xs="12" md="4">
-          <img className="square" style={{backgroundImage: `url(${img})`}} />
+        <Col xs="12" md="4" key={`p-tab-${index}`}>
+          <div className="square" style={{backgroundImage: `url(${img})`}} alt="dog" />
         </Col>
       );
     });

@@ -12,7 +12,7 @@ import CheckBoxes from "./../form-inputs/CheckBoxes";
 import RadioButtons from "./../form-inputs/RadioButtons";
 import ToggleButtons from "./../form-inputs/ToggleButtons";
 
-const Forms = (props) => {
+const PForms = (props) => {
   return (
     <div className="section">
         <Row>
@@ -72,4 +72,4 @@ const Forms = (props) => {
     </div>
   );
 };
-export default Forms;
+export default PForms;

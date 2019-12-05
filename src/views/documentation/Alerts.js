@@ -1,7 +1,7 @@
 import React from 'react';
 import Prism from 'prismjs';
-import PrismJsx from 'prismjs/components/prism-jsx.min';
 import LazyAlerts  from "./../../components/Alerts";
+require('prismjs/components/prism-jsx.min');
 
 class Alerts extends React.Component {
   componentDidMount() {
@@ -11,7 +11,7 @@ class Alerts extends React.Component {
     return (
       <div>
         <h2>Alerts</h2>
-        <p className="mb-5">Alerts are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Alert component, go <a href="https://reactstrap.github.io/components/alerts/" target="_blank">here</a>.</p>
+        <p className="mb-5">Alerts are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Alert component, go <a href="https://reactstrap.github.io/components/alerts/" target="_blank" rel="noopener noreferrer">here</a>.</p>
         <LazyAlerts />
         <pre>
           <code className="language-jsx">

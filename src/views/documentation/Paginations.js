@@ -1,7 +1,7 @@
 import React from 'react';
 import Prism from 'prismjs';
-import PrismJsx from 'prismjs/components/prism-jsx.min';
 import LazyPagination  from './../../components/indicators/Pags';
+require('prismjs/components/prism-jsx.min');
 
 class Paginations extends React.Component {
   componentDidMount() {
@@ -11,7 +11,7 @@ class Paginations extends React.Component {
     return (
       <div>
         <h2>Pagination</h2>
-        <p className="mb-5">Pagination options are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Pagination component, go <a href="https://reactstrap.github.io/components/pagination/" target="_blank">here</a>.</p>
+        <p className="mb-5">Pagination options are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Pagination component, go <a href="https://reactstrap.github.io/components/pagination/" target="_blank" rel="noopener noreferrer">here</a>.</p>
         <LazyPagination />
         <pre>
           <code className="language-jsx">

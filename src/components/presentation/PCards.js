@@ -5,7 +5,7 @@ import {
 } from 'reactstrap';
 import LazyCard from "../LazyCard";
 
-const Cards = (props) => {
+const PCards = (props) => {
   let cardProps = [
     {
       image: "dog-1.jpg",
@@ -43,7 +43,7 @@ const Cards = (props) => {
         <Col xs="12" md={{size: 8, offset: 2}}>
           <div className="header">
             <h2>Cards</h2>
-            <p>The original structure for the Bootstrap 4 cards remains intact. Lazy Kit brings more focus on them with the help of shadows and hover events.</p>
+            <p>The original structure for the Reactstrap cards remains intact. Lazy Kit brings more focus on them with the help of shadows and hover events.</p>
           </div>
         </Col>
       </Row>
@@ -57,4 +57,4 @@ const Cards = (props) => {
   );
 };
 
-export default Cards;
+export default PCards;

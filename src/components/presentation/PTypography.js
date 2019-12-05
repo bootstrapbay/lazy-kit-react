@@ -7,7 +7,7 @@ import Headings from "./../typography/Headings";
 import Paragraphs from "./../typography/Paragraphs";
 import Blockquote from "./../typography/Blockquote";
 
-const Typography = (props) => {
+const PTypography = (props) => {
   return (
     <div className="section">
         <Row>
@@ -46,4 +46,4 @@ const Typography = (props) => {
     </div>
   );
 };
-export default Typography;
+export default PTypography;

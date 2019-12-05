@@ -11,7 +11,7 @@ const PInfo = () => {
     <div className="info">
       <Row>
         <Col xs="12" md="4" className="text-center">
-          <img src={avatar} alt="Lorde" class="img-fluid rounded-circle shadow-lg" style={{width: 180}} />
+          <img src={avatar} alt="Lorde" className="img-fluid rounded-circle shadow-lg" style={{width: 180}} />
         </Col>
         <Col xs="12" md="8" className="d-flex flex-column align-items-center align-items-lg-start">
           <div className="d-flex flex-row align-items-start mt-3 mt-lg-0">
@@ -26,7 +26,7 @@ const PInfo = () => {
             <div className="posts"><p className="lead"><b>201</b> following</p></div>
           </div>
           <p className="lead mb-0 mt-2"><b>Ella Yelich-O'Connor</b></p>
-          <p classNAme="lead text-center text-lg-left">Let's let things come out of the woodwork.  I'll give you my best side, tell you all my best lies.  Yeah, awesome right?</p>
+          <p className="lead text-center text-lg-left">Let's let things come out of the woodwork.  I'll give you my best side, tell you all my best lies.  Yeah, awesome right?</p>
         </Col>
       </Row>
     </div>

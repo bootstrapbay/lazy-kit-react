@@ -1,22 +1,26 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 import {
   Button,
   Collapse,
   Container,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem } from 'reactstrap';
+  DropdownItem
+} from 'reactstrap';
+import {
+  Link,
+  NavLink
+} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import logo from './../../assets/img/logo.svg';
 
-class ExampleNavbar extends React.Component {
+class PNavbar extends React.Component {
     constructor(props) {
       super(props);
       this.toggle = this.toggle.bind(this);
@@ -36,10 +40,10 @@ class ExampleNavbar extends React.Component {
         <div>
           <Navbar className="navbar-dark bg-primary" expand="lg">
             <Container>
-              <NavbarBrand href="/">
-                <img src={logo} alt="Example Navbar 1" className="mr-2" height="30" />
+              <NavLink to="/" className="navbar-brand">
+                <img src={logo} alt="logo" className="mr-2" height="30" />
                 {this.props.title}
-              </NavbarBrand>
+              </NavLink>
               <NavbarToggler onClick={this.toggle} />
               <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav className="mx-2" navbar>
@@ -49,8 +53,12 @@ class ExampleNavbar extends React.Component {
                         Components
                       </DropdownToggle>
                       <DropdownMenu>
-                        <DropdownItem href="documentation/getting_started.html" target="_blank">Getting Started</DropdownItem>
-                        <DropdownItem href="documentation/alerts.html" target="_blank">Core Elements</DropdownItem>
+                        <Link to="/documentation/getting-started">
+                          <DropdownItem>Getting Started</DropdownItem>
+                        </Link>
+                        <Link to="/documentation/alerts">
+                          <DropdownItem>Core Elements</DropdownItem>
+                        </Link>
                       </DropdownMenu>
                     </UncontrolledDropdown>
                   </NavItem>
@@ -60,19 +68,25 @@ class ExampleNavbar extends React.Component {
                         Examples
                       </DropdownToggle>
                       <DropdownMenu>
-                        <DropdownItem href="register.html" target="_blank">Register</DropdownItem>
-                        <DropdownItem href="profile.html" target="_blank">Profile</DropdownItem>
-                        <DropdownItem href="profile.html" target="_blank">Profile</DropdownItem>
+                        <Link to="/register">
+                          <DropdownItem>Register</DropdownItem>
+                        </Link>
+                        <Link to="/profile">
+                          <DropdownItem>Profile</DropdownItem>
+                        </Link>
+                        <Link to="/landing">
+                          <DropdownItem>Landing</DropdownItem>
+                        </Link>
                       </DropdownMenu>
                     </UncontrolledDropdown>
                   </NavItem>
                 </Nav>
                 <Nav className="ml-auto" navbar>
                   <NavItem key="navitem-3">
-                    <Button color="light" outline={true}>Documentation</Button>
+                    <NavLink className="btn btn-outline-light" to="/documentation">Documentation</NavLink>
                   </NavItem>
                   <NavItem className="mx-2">
-                    <Button color="light">
+                    <Button color="light" href="https://bootstrapbay.com/theme/lazy-free-react-ui-kit-BD90DEB">
                       <FontAwesomeIcon icon="download" /> {" "}
                       Download
                     </Button>
@@ -86,15 +100,12 @@ class ExampleNavbar extends React.Component {
     }
 };
 
-ExampleNavbar.propTypes = {
-  /**
-   * The application's title.
-   */
+PNavbar.propTypes = {
   title: PropTypes.string
 };
 
-ExampleNavbar.defaultProps = {
+PNavbar.defaultProps = {
   title: "Lazy Kit"
 };
 
-export default ExampleNavbar;
+export default PNavbar;

@@ -1,7 +1,7 @@
 import React from 'react';
 import Prism from 'prismjs';
-import PrismJsx from 'prismjs/components/prism-jsx.min';
 import { Link } from 'react-router-dom';
+require('prismjs/components/prism-jsx.min');
 
 class Contents extends React.Component {
   componentDidMount() {
@@ -20,8 +20,8 @@ class Contents extends React.Component {
           <li>All SCSS files that overwrite the Bootstrap 4 styling can be found in the <code>src/assets</code> folder. The styling is imported for all views in the <code>App.js</code> file.</li>
         </ul>
         <h2>Customising the Kit</h2>
-        <p>We have used SCSS to create the Lazy kit design. SCSS is a preprocessor scripting language that is interpreted or compiled into CSS. If you want to learn more about the advantages of working with it, you can go <a href="https://sass-lang.com/" target="_blank"> here</a>. <br /><br />
-        If you want to change the syling of the kit, you can create your own CSS and overwrite the default styling. Or you can modify the SCSS source files. Inside the <code>assets/scss/custom</code> folder you will find a file for every component. In order to compile the SCSS, you can use the <a href="https://www.npmjs.com/package/node-sass" target="_blank">Node SASS package</a>.</p>
+        <p>We have used SCSS to create the Lazy kit design. SCSS is a preprocessor scripting language that is interpreted or compiled into CSS. If you want to learn more about the advantages of working with it, you can go <a href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer"> here</a>. <br /><br />
+        If you want to change the syling of the kit, you can create your own CSS and overwrite the default styling. Or you can modify the SCSS source files. Inside the <code>assets/scss/custom</code> folder you will find a file for every component. In order to compile the SCSS, you can use the <a href="https://www.npmjs.com/package/node-sass" target="_blank" rel="noopener noreferrer">Node SASS package</a>.</p>
 
         <h2>Reactstrap Components</h2>
         <p>Here are the elements from Reactstrap that have been restyled in this kit:</p>

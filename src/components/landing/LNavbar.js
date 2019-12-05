@@ -1,17 +1,14 @@
 import React from "react";
 import {
   Container,
-  Row,
-  Col,
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
   Button
 } from 'reactstrap';
+import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import logo from './../../assets/img/logo.svg';
 
@@ -34,18 +31,20 @@ class LNavbar extends React.Component {
       return (
         <Navbar expand="lg" dark color="white" className="mb-4">
           <Container>
-            <NavbarBrand href="/" className="d-flex align-items-center text-dark">
+            <NavLink to="/" className="navbar-brand d-fles align-items-center text-dark">
               <img className="mr-2" style={{height: 30}} src={logo} alt="logo" />
               Lazy Kit
-            </NavbarBrand>
+            </NavLink>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-lg-auto" navbar>
                 <NavItem>
-                  <Button color="primary" outline={true}>Documentation</Button>
+                  <NavLink to="/documentation" className="btn btn-outline-primary">
+                    Documentation
+                  </NavLink>
                 </NavItem>
                 <NavItem className="mx-2">
-                  <Button color="primary">
+                  <Button color="primary" href="https://bootstrapbay.com/theme/lazy-free-react-ui-kit-BD90DEB">
                     <FontAwesomeIcon icon="download" /> {" "}
                     Download
                   </Button>

@@ -6,14 +6,14 @@ import {
 import Tooltips from './../Tooltips';
 import Popovers from './../Popovers';
 
-const TooltipsAndPopovers = () => {
+const PTooltipsAndPopovers = () => {
   return (
     <div className="section">
       <Row>
         <Col xs="12" md={{size: 8, offset: 2}}>
           <div className="header">
             <h2 id="modals">Tooltips and Popovers</h2>
-            <p>Both tooltips and popovers offer an easy way to display more information on hover or click. You must enable them inside your Javascript in order to use them.</p>
+            <p>Both tooltips and popovers offer an easy way to display more information on hover or click.</p>
           </div>
            <div className="component">
             <Row>
@@ -33,4 +33,4 @@ const TooltipsAndPopovers = () => {
   );
 };
 
-export default TooltipsAndPopovers;
+export default PTooltipsAndPopovers;

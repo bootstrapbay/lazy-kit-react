@@ -5,7 +5,7 @@ import {
 } from 'reactstrap';
 import Lorde from "./../../assets/img/lorde.png";
 
-const Images = (props) => {
+const PImages = (props) => {
   let imgClasses = [
     {name: "Default", cl: "rounded"},
     {name: "Round", cl: "rounded-circle"},
@@ -43,4 +43,4 @@ const Images = (props) => {
   );
 };
 
-export default Images;
+export default PImages;

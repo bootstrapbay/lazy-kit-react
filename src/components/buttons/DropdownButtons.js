@@ -2,8 +2,6 @@ import React from 'react';
 import {
   Button,
   ButtonGroup,
-  Col,
-  Row,
   UncontrolledDropdown,
   DropdownMenu,
   DropdownItem,

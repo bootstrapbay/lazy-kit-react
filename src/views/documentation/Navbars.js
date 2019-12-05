@@ -1,7 +1,7 @@
 import React from 'react';
 import Prism from 'prismjs';
-import PrismJsx from 'prismjs/components/prism-jsx.min';
 import LazyNavbar  from "./../../components/LazyNavbar";
+require('prismjs/components/prism-jsx.min');
 
 class Navbars extends React.Component {
   componentDidMount() {
@@ -15,7 +15,7 @@ class Navbars extends React.Component {
     return (
       <div>
         <h2>Navbars</h2>
-        <p>Navbars are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Alert component, go <a href="https://reactstrap.github.io/components/navbar/" target="_blank">here</a>.</p>
+        <p>Navbars are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Alert component, go <a href="https://reactstrap.github.io/components/navbar/" target="_blank" rel="noopener noreferrer">here</a>.</p>
         <p>Here is an example of a Navbar component that gets all the data it displays through props.</p>
         <LazyNavbar {...pr}/>
         <pre>

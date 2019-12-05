@@ -5,7 +5,7 @@ import {
  } from 'reactstrap';
  import ColourCard from "./ColourCard";
 
-const Colours = (props) => {
+const PColours = (props) => {
   let colours = [
     {name: "primary", colour: "#611F6A"},
     {name: "secondary", colour: "#071D5C"},
@@ -46,4 +46,4 @@ const Colours = (props) => {
   );
 };
 
-export default Colours;
+export default PColours;

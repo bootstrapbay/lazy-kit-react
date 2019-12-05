@@ -53,7 +53,9 @@ const ExampleHeader = (props) => (
                 </span>
                 by
               </p>
-							<img src={BBLogo} alt="Lazy Kit" width="150" />
+              <a href="https://bootstrapbay.com/" className="no-decoration">
+							  <img src={BBLogo} alt="Lazy Kit" width="150" />
+              </a>
             </div>
         </Col>
       </Row>

@@ -1,11 +1,10 @@
 import React from 'react';
 import Prism from 'prismjs';
-import PrismJsx from 'prismjs/components/prism-jsx.min';
-import LazyPagination  from './../../components/indicators/Pags';
 import SimpleButtons from './../../components/buttons/SimpleButtons';
 import PillButtons from './../../components/buttons/PillButtons';
 import IconButtons from './../../components/buttons/IconButtons';
 import SizedButtons from './../../components/buttons/SizedButtons';
+require('prismjs/components/prism-jsx.min');
 
 
 class Buttons extends React.Component {
@@ -16,7 +15,7 @@ class Buttons extends React.Component {
     return (
       <div>
         <h2>Buttons</h2>
-        <p className="mb-5">Buttons are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Button component, go <a href="https://reactstrap.github.io/components/pagination/" target="_blank">here</a>.
+        <p className="mb-5">Buttons are imported from <b>reactstrap</b> and styled with the <b>lazy kit</b>. For full documentation on how to use the Button component, go <a href="https://reactstrap.github.io/components/pagination/" target="_blank" rel="noopener noreferrer">here</a>.
         <h4>Simple Buttons</h4>
         Here is how the simple and outlined buttons look. You need to add the <code>outline</code> property to the Button component to get the outlined look.</p>
         <SimpleButtons />

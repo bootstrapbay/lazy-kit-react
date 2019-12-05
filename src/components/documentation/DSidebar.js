@@ -14,7 +14,7 @@ import {
 } from './../../routes.js';
 
 const DSidebar = () => {
-    let { path, url } = useRouteMatch();
+    let { path } = useRouteMatch();
     let introItems = introduction_routes.map((route, index) => {
       return (
         <NavItem key={`sidebar-route-${index}`}>

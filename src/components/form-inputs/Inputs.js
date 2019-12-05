@@ -3,7 +3,6 @@ import {
   FormGroup,
   Input
 } from 'reactstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Inputs = () => {
   return (

@@ -8,7 +8,7 @@ import Pags from './../indicators/Pags';
 import Badges from './../indicators/Badges';
 import ProgressBars from './../indicators/ProgressBars';
 
-const Indicators = (props) => {
+const PIndicators = (props) => {
   return (
     <div className="section">
       <Row>
@@ -49,4 +49,4 @@ const Indicators = (props) => {
   );
 };
 
-export default Indicators;
+export default PIndicators;

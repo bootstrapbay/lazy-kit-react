@@ -4,32 +4,31 @@ import {
   Container,
   Row
 } from 'reactstrap';
-import ExampleNavbar from "./../components/presentation-page/ExampleNavbar";
-import ExampleHeader from "./../components/presentation-page/ExampleHeader";
-import Colours from "./../components/presentation-page/Colours";
-import Buttons from "./../components/presentation-page/Buttons";
-import Forms from "./../components/presentation-page/Forms";
-import Typography from "./../components/presentation-page/Typography";
-import Images from "./../components/presentation-page/Images";
-import NavigationBars from "./../components/presentation-page/NavigationBars";
-import Tables from "./../components/presentation-page/Tables";
-import Navigation from "./../components/presentation-page/Navigation";
-import Indicators from "./../components/presentation-page/Indicators";
+import PNavbar from "./../components/presentation/PNavbar";
+import PHeader from "./../components/presentation/PHeader";
+import PColours from "./../components/presentation/PColours";
+import PButtons from "./../components/presentation/PButtons";
+import PForms from "./../components/presentation/PForms";
+import PTypography from "./../components/presentation/PTypography";
+import PImages from "./../components/presentation/PImages";
+import PNavigationBars from "./../components/presentation/PNavigationBars";
+import PTables from "./../components/presentation/PTables";
+import PNavigation from "./../components/presentation/PNavigation";
+import PIndicators from "./../components/presentation/PIndicators";
 import Alerts from "./../components/Alerts";
-import Cards from "./../components/presentation-page/Cards";
-import TooltipsAndPopovers from "./../components/presentation-page/TooltipsAndPopovers";
+import PCards from "./../components/presentation/PCards";
+import PTooltipsAndPopovers from "./../components/presentation/PTooltipsAndPopovers";
 import LazyModal from "./../components/LazyModal";
-import Examples from "./../components/presentation-page/Examples";
-import ReadDocs from "./../components/presentation-page/ReadDocs";
-import CTA from "./../components/presentation-page/CTA";
-import Footer from "./../components/Footer";
+import PExamples from "./../components/presentation/PExamples";
+import PReadDocs from "./../components/presentation/PReadDocs";
+import PCTA from "./../components/presentation/PCTA";
 
 class Presentation extends React.Component {
   render() {
     return (
       <div className="index">
-        <ExampleNavbar />
-        <ExampleHeader />
+        <PNavbar />
+        <PHeader />
 
         <div className="intro bg-light">
           <Container className="section desc">
@@ -42,23 +41,23 @@ class Presentation extends React.Component {
       		    </Col>
       	    </Row>
 
-            <Colours />
-            <Buttons />
+            <PColours />
+            <PButtons />
           </Container>
         </div>
 
         <Container>
-          <Forms />
-          <Typography />
-          <Images />
+          <PForms />
+          <PTypography />
+          <PImages />
         </Container>
 
-        <NavigationBars />
+        <PNavigationBars />
 
         <Container>
-          <Tables />
-          <Navigation />
-          <Indicators />
+          <PTables />
+          <PNavigation />
+          <PIndicators />
 
           <div className="section">
             <Row>
@@ -72,8 +71,8 @@ class Presentation extends React.Component {
             <Alerts />
           </div>
 
-          <Cards />
-          <TooltipsAndPopovers />
+          <PCards />
+          <PTooltipsAndPopovers />
 
           <div className="section">
             <Row>
@@ -91,9 +90,9 @@ class Presentation extends React.Component {
           </div>
 
         </Container>
-        <Examples />
-        <ReadDocs />
-        <CTA />
+        <PExamples />
+        <PReadDocs />
+        <PCTA />
       </div>
     );
   };
@@ -101,7 +100,7 @@ class Presentation extends React.Component {
 
 Presentation.defaultProps = {
   title: "Lazy kit",
-  description: "is a complete design system built on Bootstrap 4. It is created for all web makers that want to get a project off the ground quickly and neatly. It overwrites all Bootstrap 4 components and adds 2 more plugins. It also comes with 3 example pages."
+  description: "is a complete design system built with React.JS and Reactstrap. It is created for all web makers that want to get a project off the ground quickly and neatly. It overwrites the styles for the Reactstrap components and adds 2 more plugins. It also comes with 3 example pages."
 };
 
 export default Presentation;
