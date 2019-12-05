@@ -37,7 +37,7 @@ To install all dependencies for the project run
 ### `npm install`
 
 <br />
-And to start the project in development mode
+And to start the project in development mode run 
 ### `npm start`
 
 ## Dependencies
