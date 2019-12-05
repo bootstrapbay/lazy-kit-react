@@ -1,68 +1,62 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+<a href="https://bootstrapbay.github.io/lazy-kit-react/"><img src="./src/assets/img/presentation.jpg" width="600" /></a>
+</p>
 
-## Available Scripts
+<p align="center">
+<b>Lazy Kit</b> is a complete design system built with React.JS and Reactstrap. <br />
+It is created for all web makers that want to get a project off the ground quickly and neatly. <br />
+It overwrites the styles for the Reactstrap components and adds 2 more plugins. It also comes with 3 example pages.
+</p>
 
-In the project directory, you can run:
 
+<p align="center">
+  <a href="https://bootstrapbay.github.io/lazy-kit-react/">Components</a> •
+  <a href="https://bootstrapbay.github.io/lazy-kit-react/documentation">Documentation</a> •
+  <a href="#">Official Page</a>
+</p>
+
+<br />
+
+
+## Download
+
+* [From GitHub](https://github.com/bootstrapbay/lazy-kit-react)
+* [From BootstrapBay](https://bootstrapbay.com/theme/lazy-free-react-ui-kit-BD90DEB)
+<br />
+
+## Examples
+Lazy Kit comes with 3 examples that show you what you can build with it.
+
+| <a href="https://bootstrapbay.github.io/lazy-kit-react/register"><img src="./src/assets/img/register.png" width="250" /></a> | <a href="https://bootstrapbay.github.io/lazy-kit-react/profile"><img src="./src/assets/img/profile.png" width="250" /></a> | <a href="https://bootstrapbay.github.io/lazy-kit-react/landing"><img src="./src/assets/img/landing.png" width="250" /></a>|
+| ------------- |:-------------:| -----:       |
+| [Register Page](https://bootstrapbay.github.io/lazy-kit-react/register) | [Profile Page](https://bootstrapbay.github.io/lazy-kit-react/profile)  | [Landing Page](https://bootstrapbay.github.io/lazy-kit-react/landing) |
+<br />
+
+## Quick start
+To install all dependencies for the project run
+### `npm install`
+
+<br />
+And to start the project in development mode
 ### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Dependencies
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Lazy Kit React uses the following libraries:
+* [Create React App](https://github.com/facebook/create-react-app)
+* [Bootstrap 4](https://getbootstrap.com)
+* [Reactstrap](https://reactstrap.github.io/)
+* [React Router Dom](https://www.npmjs.com/package/react-router-dom)
+* [noUiSlider React)](https://www.npmjs.com/package/nouislider-react)
+* [FontAwesome Icons React](https://www.npmjs.com/package/@fortawesome/react-fontawesome)
+<br />
 
-### `npm test`
+## Issues and Technical Support
+If you have found an issue please report it on Github, under Issues. If you have a technical questions or something it not working while you are trying to integrate the kit, please email us at contact@bootstrapbay.com
+<br />
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Useful Links
+* [Bootstrap Tutorials](https://bootstrapbay.com/blog/14-days-bootstrap-4/)
+* [Premium Bootstrap Templates](https://bootstrapbay.com/themes/?q=&category=all&type=premium&page=1&sort=sales&order=DESC)
+* [Free Bootstrap Templates](https://bootstrapbay.com/themes?type=free)
+* [Affiliate Program](https://bootstrapbay.com/affiliate)

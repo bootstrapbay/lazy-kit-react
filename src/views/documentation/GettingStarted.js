@@ -22,7 +22,7 @@ class GettingStarted extends React.Component {
 npm install
         </code>
       </pre>
-      <p>Run this command to install all dependies for the project.</p>
+      <p>Run this command to install all dependencies for the project.</p>
 
       <h5 className="mt-5">Start the Project</h5>
       <pre>
