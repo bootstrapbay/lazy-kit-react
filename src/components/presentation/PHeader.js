@@ -42,7 +42,7 @@ const ExampleHeader = (props) => (
       <Row>
         <Col xs="12" lg={{size: 8, offset: 2}} className="text-center">
 	          <div className="title">
-	            <h1 className="display-2 text-white">Lazy Kit</h1>
+	            <h1 className="display-2 text-white">Lazy Kit React</h1>
 	            <h4 className="text-white">A new design system for developing with less effort.</h4>
 	          </div>
             <div className="credits">

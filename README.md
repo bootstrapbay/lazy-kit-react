@@ -10,8 +10,8 @@ It overwrites the styles for the Reactstrap components and adds 2 more plugins. 
 
 
 <p align="center">
-  <a href="https://bootstrapbay.github.io/lazy-kit-react/">Components</a> •
-  <a href="https://bootstrapbay.github.io/lazy-kit-react/documentation">Documentation</a> •
+  <a href="https://bootstrapbay.github.io/lazy-kit-react/#/">Components</a> •
+  <a href="https://bootstrapbay.github.io/lazy-kit-react/#/documentation/getting-started">Documentation</a> •
   <a href="#">Official Page</a>
 </p>
 
@@ -27,9 +27,9 @@ It overwrites the styles for the Reactstrap components and adds 2 more plugins. 
 ## Examples
 Lazy Kit comes with 3 examples that show you what you can build with it.
 
-| <a href="https://bootstrapbay.github.io/lazy-kit-react/register"><img src="./src/assets/img/register.png" width="250" /></a> | <a href="https://bootstrapbay.github.io/lazy-kit-react/profile"><img src="./src/assets/img/profile.png" width="250" /></a> | <a href="https://bootstrapbay.github.io/lazy-kit-react/landing"><img src="./src/assets/img/landing.png" width="250" /></a>|
+| <a href="https://bootstrapbay.github.io/lazy-kit-react/#/register"><img src="./src/assets/img/register.png" width="250" /></a> | <a href="https://bootstrapbay.github.io/lazy-kit-react/#/profile"><img src="./src/assets/img/profile.png" width="250" /></a> | <a href="https://bootstrapbay.github.io/lazy-kit-react/#/landing"><img src="./src/assets/img/landing.png" width="250" /></a>|
 | ------------- |:-------------:| -----:       |
-| [Register Page](https://bootstrapbay.github.io/lazy-kit-react/register) | [Profile Page](https://bootstrapbay.github.io/lazy-kit-react/profile)  | [Landing Page](https://bootstrapbay.github.io/lazy-kit-react/landing) |
+| [Register Page](https://bootstrapbay.github.io/lazy-kit-react/#/register) | [Profile Page](https://bootstrapbay.github.io/lazy-kit-react/#/profile)  | [Landing Page](https://bootstrapbay.github.io/lazy-kit-react/#/landing) |
 <br />
 
 ## Quick start
@@ -37,7 +37,7 @@ To install all dependencies for the project run
 ### `npm install`
 
 <br />
-And to start the project in development mode run 
+And to start the project in development mode run
 ### `npm start`
 
 ## Dependencies
