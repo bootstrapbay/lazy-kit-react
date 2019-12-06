@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lazy-kit-react/static/css/main.db2d5edb.chunk.css",
-    "main.js": "/lazy-kit-react/static/js/main.43381f67.chunk.js",
-    "main.js.map": "/lazy-kit-react/static/js/main.43381f67.chunk.js.map",
+    "main.js": "/lazy-kit-react/static/js/main.9988991c.chunk.js",
+    "main.js.map": "/lazy-kit-react/static/js/main.9988991c.chunk.js.map",
     "runtime-main.js": "/lazy-kit-react/static/js/runtime-main.48757a19.js",
     "runtime-main.js.map": "/lazy-kit-react/static/js/runtime-main.48757a19.js.map",
     "static/css/2.2e80bbbd.chunk.css": "/lazy-kit-react/static/css/2.2e80bbbd.chunk.css",
-    "static/js/2.9a42a5ce.chunk.js": "/lazy-kit-react/static/js/2.9a42a5ce.chunk.js",
-    "static/js/2.9a42a5ce.chunk.js.map": "/lazy-kit-react/static/js/2.9a42a5ce.chunk.js.map",
+    "static/js/2.f94de0ed.chunk.js": "/lazy-kit-react/static/js/2.f94de0ed.chunk.js",
+    "static/js/2.f94de0ed.chunk.js.map": "/lazy-kit-react/static/js/2.f94de0ed.chunk.js.map",
     "index.html": "/lazy-kit-react/index.html",
-    "precache-manifest.3299dc73bf9e2286f495eae489a81bf6.js": "/lazy-kit-react/precache-manifest.3299dc73bf9e2286f495eae489a81bf6.js",
+    "precache-manifest.0c0eb44de9a7e85efc2e7b88649d813e.js": "/lazy-kit-react/precache-manifest.0c0eb44de9a7e85efc2e7b88649d813e.js",
     "service-worker.js": "/lazy-kit-react/service-worker.js",
     "static/css/2.2e80bbbd.chunk.css.map": "/lazy-kit-react/static/css/2.2e80bbbd.chunk.css.map",
     "static/css/main.db2d5edb.chunk.css.map": "/lazy-kit-react/static/css/main.db2d5edb.chunk.css.map",
@@ -39,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.48757a19.js",
     "static/css/2.2e80bbbd.chunk.css",
-    "static/js/2.9a42a5ce.chunk.js",
+    "static/js/2.f94de0ed.chunk.js",
     "static/css/main.db2d5edb.chunk.css",
-    "static/js/main.43381f67.chunk.js"
+    "static/js/main.9988991c.chunk.js"
   ]
 }
