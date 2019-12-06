@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eae5d58b364dd09154c0d6ef4cab1f26",
+    "revision": "fcd128942ac81ae083dde40df1f2132e",
     "url": "/lazy-kit-react/index.html"
   },
   {
-    "revision": "e5b8a05199c602d4d3b2",
+    "revision": "6eb05df4a9bd5b38a937",
     "url": "/lazy-kit-react/static/css/2.2e80bbbd.chunk.css"
   },
   {
-    "revision": "f8c666b2ef491afdb6ef",
+    "revision": "3122ba46923fe1e478d3",
     "url": "/lazy-kit-react/static/css/main.db2d5edb.chunk.css"
   },
   {
-    "revision": "e5b8a05199c602d4d3b2",
-    "url": "/lazy-kit-react/static/js/2.ec61f7d4.chunk.js"
+    "revision": "6eb05df4a9bd5b38a937",
+    "url": "/lazy-kit-react/static/js/2.9a42a5ce.chunk.js"
   },
   {
-    "revision": "f8c666b2ef491afdb6ef",
-    "url": "/lazy-kit-react/static/js/main.bc5cdb69.chunk.js"
+    "revision": "3122ba46923fe1e478d3",
+    "url": "/lazy-kit-react/static/js/main.43381f67.chunk.js"
   },
   {
     "revision": "66763dea74636e7c9a42",
