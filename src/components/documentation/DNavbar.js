@@ -1,13 +1,13 @@
 import React from 'react';
 import {
   Navbar,
-  NavbarBrand,
   NavbarToggler,
   Collapse,
   NavItem,
   Nav,
   Button
 } from 'reactstrap';
+import { NavLink as NLink } from 'react-router-dom';
 import logo from './../../assets/img/logo_white.svg';
 import { FontAwesomeIcon } from  '@fortawesome/react-fontawesome';
 
@@ -30,10 +30,10 @@ class DNavbar extends React.Component {
   render() {
     return (
       <Navbar expand="md" dark color="primary" className="mb-4 fixed-top">
-        <NavbarBrand className="d-flex align-items-center" href="/">
-          <img src={logo} alt="Lazy kit" className="mr-1 ml-2" style={{height: 30}} />
+        <NLink to="/" className="navbar-brand d-flex align-items-center">
+          <img className="mr-1 ml-2" style={{height: 30}} src={logo} alt="logo" />
           Lazy Kit
-        </NavbarBrand>
+        </NLink>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
